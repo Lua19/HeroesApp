@@ -6,6 +6,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ErrorPageComponent } from './shared/error-page/error-page.component';
 import { AppRoutingModule } from './app-routing.module';
 import { MatCommonModule } from '@angular/material/core';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MatCommonModule } from '@angular/material/core';
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    MatCommonModule
+    MatCommonModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
