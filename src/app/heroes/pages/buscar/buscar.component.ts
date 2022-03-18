@@ -12,6 +12,7 @@ export class BuscarComponent implements OnInit {
 
   term: string = '';
   heroes: Heroe[] = []
+  selectedHero !: Heroe;
 
   constructor(private heroService: HeroesService) { }
 
@@ -19,7 +20,15 @@ export class BuscarComponent implements OnInit {
   }
 
   search(){
-    this.heroService.getHeroes().subscribe( heroes => this.heroes = heroes);
+    this.heroService.getSuggestions(this.term).subscribe( heroes => this.heroes = heroes);
+  }
+
+  optionSelected(event:any){
+    const hero: Heroe = event.option.value;
+    this.term = hero.superhero
+
+    this.heroService.getHeroById(hero.id!)
+    .subscribe(heroe => this.selectedHero = heroe);
   }
 
 }

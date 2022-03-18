@@ -14,11 +14,13 @@
                    [matAutocomplete]="auto"
                    [(ngModel)]="term"
                    (input)="search()">
-            <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete">
+            <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete"
+            (optionSelected)="optionSelected($event)">
               <mat-option *ngFor="let hero of heroes" [value]="hero">
                 {{hero.superhero}}
               </mat-option>
             </mat-autocomplete>
           </mat-form-field>
     </div>
+    <strong>{{selectedHero | json}}</strong>
 </div>
