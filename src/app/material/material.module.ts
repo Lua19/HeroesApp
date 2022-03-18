@@ -7,6 +7,8 @@ import {MatButtonModule} from '@angular/material/button';
 import { MatCommonModule } from '@angular/material/core';
 import {MatListModule} from '@angular/material/list';
 import {MatCardModule} from '@angular/material/card';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+import {MatGridListModule} from '@angular/material/grid-list';
 
 @NgModule({
   
@@ -17,7 +19,9 @@ import {MatCardModule} from '@angular/material/card';
     MatIconModule,
     MatCommonModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    MatProgressSpinnerModule,
+    MatGridListModule
 
   ]
 })
