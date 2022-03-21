@@ -1,4 +1,6 @@
-<h1>Hero Card : {{hero.superhero}}</h1> 
+<h1>{{(hero.id)? 'Edit' : 'New hero :'}}
+    <small>{{hero.superhero}}</small>
+</h1> 
 
 <div fxLayout="row" fxLayoutGap ="40px" fxLayout.xs="column">
 
@@ -49,7 +51,7 @@
             <button mat-raised-button color="primary"
             (click)="save()">
                 <mat-icon>edit</mat-icon>
-                Save
+                {{(hero.id)? 'Update' : 'Add hero'}}
             </button>
         <span class="spacer"></span>
             <button mat-raised-button color="warn" *ngIf="hero.id" (click)="deleteHero()">
