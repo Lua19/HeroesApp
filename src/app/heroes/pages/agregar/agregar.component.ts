@@ -60,4 +60,10 @@ export class AgregarComponent implements OnInit {
     }
 
   }
+  deleteHero(){
+    this.heroService.deleteHero(this.hero.id!)
+    .subscribe( resp => {
+      this.router.navigate(['/heroes'])
+    })
+  }
 }
