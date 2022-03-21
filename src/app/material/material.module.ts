@@ -12,22 +12,24 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
+import {MatSelectModule} from '@angular/material/select';
 
 @NgModule({
   
   exports:[
-    MatSidenavModule,
-    MatToolbarModule,
-    MatButtonModule,
-    MatIconModule,
-    MatCommonModule,
-    MatListModule,
-    MatCardModule,
-    MatProgressSpinnerModule,
-    MatGridListModule,
     MatAutocompleteModule,
+    MatButtonModule,
+    MatCardModule,
+    MatCommonModule,
     MatFormFieldModule,
-    MatInputModule
+    MatGridListModule,
+    MatIconModule,
+    MatInputModule,
+    MatListModule,
+    MatProgressSpinnerModule,
+    MatSelectModule,
+    MatSidenavModule,
+    MatToolbarModule
 
   ]
 })
