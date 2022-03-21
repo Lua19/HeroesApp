@@ -168,13 +168,22 @@
       "characters": "Norrin Radd"
     },
     {
-      "superhero": "aOpduox",
-      "alter_ego": "dadwwda",
-      "first_appearance": "aedcadawd",
-      "characters": "qdqsxadwqd",
+      "superhero": "Moon Knight",
+      "alter_ego": "Marc Spector",
+      "first_appearance": "Moon Knight #1",
+      "characters": "Stephen Grant",
       "publisher": "Marvel",
-      "altImg": "qwdqdadawd",
+      "altImg": "https://64.media.tumblr.com/5afc8d985c41991c249dc5966b98e285/537e6d3cb58a85ab-92/s1280x1920/d84341a837e21cae06fd57b4048f7821067138b9.jpg",
       "id": "ylcFGdX"
+    },
+    {
+      "superhero": "Red Hood",
+      "alter_ego": "Jason Todd",
+      "first_appearance": "Detective Comics #168",
+      "characters": "Jason Todd",
+      "publisher": "DC Comics",
+      "altImg": "https://i.pinimg.com/originals/5f/29/e3/5f29e392594a098c51b7dfe493e85740.png",
+      "id": "kfAtQbF"
     }
   ]
 }
