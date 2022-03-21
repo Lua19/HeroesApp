@@ -15,9 +15,7 @@ export class ListadoComponent implements OnInit {
 
   ngOnInit(): void {
     this.heroesService.getHeroes().subscribe(resp => {
-      this.heroes = resp
-      console.log(this.heroes);
-      
+      this.heroes = resp;
     });
   }
 
