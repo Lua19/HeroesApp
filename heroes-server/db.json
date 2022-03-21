@@ -13,7 +13,7 @@
       "publisher": "DC Comics",
       "alter_ego": "Bruce Wayne",
       "first_appearance": "Detective Comics #27",
-      "characters": "Bruce Wayne"
+      "characters": "Bruce Wayne , Dick Grayson"
     },
     {
       "id": "dc-superman",
@@ -101,7 +101,7 @@
       "publisher": "Marvel Comics",
       "alter_ego": "Steve Rogers",
       "first_appearance": "Captain America Comics #1",
-      "characters": "Steve Rogers"
+      "characters": "Steve Rogers , Bucky Barnes"
     },
     {
       "id": "marvel-iron",
@@ -184,6 +184,15 @@
       "publisher": "DC Comics",
       "altImg": "https://i.pinimg.com/originals/5f/29/e3/5f29e392594a098c51b7dfe493e85740.png",
       "id": "kfAtQbF"
+    },
+    {
+      "superhero": "Ghost Rider",
+      "alter_ego": "Johnny Blaze",
+      "first_appearance": "Ghost Rider #1",
+      "characters": "Johnny Blaze, Robbie Reyes",
+      "publisher": "Marvel",
+      "altImg": "https://i.pinimg.com/564x/83/00/33/83003330eb0c45732348e6ed6ddaf211--gost-rider-midnight-rider.jpg",
+      "id": "7LP3QqH"
     }
   ]
 }
